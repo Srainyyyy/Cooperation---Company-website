@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Documentation Website', href: 'https://main--strong-fairy-c1bde1.netlify.app/', target: '_blank' }],
 };
 
 export const footerData = {
