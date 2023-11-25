@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -27,4 +28,3 @@ jobs:
           sudo apt install snapd
           sudo snap install vale --edge
           npm run prose:check
-          
