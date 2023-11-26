@@ -1,0 +1,102 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Brands from '~/components/widgets/Brands.astro';
+import Features from '~/components/widgets/Features.astro';
+
+const metadata = {
+  title: 'Services',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    id="ontrack"
+    title="OnTrack"
+    image={{
+      src: '/src/assets/images/OnTrack-img.png',
+      alt: 'Colorful Image',
+      width: '1600',
+      height: '1300',
+    }}
+  >
+    <Fragment slot="content">
+      OnTrack is an online assessment tool that provides students with a task-oriented approach to portfolio assessment.
+      Students work through a series of tasks in order to complete their unit learning outcomes.<br />
+      <br />
+       It is one of the bigger projects ran by Thoth Tech. It is a live production system that is in use at Deakin
+      University. Continuously evolving and expanding, it has been refined to serve as an outstanding educational tool
+      for both students and staff at the university. Its technological foundation comprises a Ruby on Rails backend and
+      an Angular JS / Angular 15 frontend. Several projects aimed at augmenting and advancing this product are available
+      for students to engage with and contribute to its enhancements.<br /><br />
+       OnTrack is sold under a package called Formatif and is available for purchase by the general public.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Start exploring',
+        href: 'https://www.formatif.app/',
+        target: '_blank',
+      },
+    ]}
+    title="Formatif"
+    subtitle="To launch into a world of endless opportunities for structured teaching and learning, reach out to the Formatif team to get set up."
+  />
+
+  <Features
+    id="features"
+    title="Latest Features"
+    items={[
+      {
+        title: 'Numbas',
+        description:
+          'This project aims to integrate Numbas testing into Ontrack, allowing tests to be presented to students before submitting reflections or necessary documents upon task completion. It aims to enable the Unit Chair to import, set up, and allocate tests to tasks, while also allowing students to undertake tests as part of the submission process.',
+        icon: 'tabler:brand-tailwind',
+      },
+      {
+        title: 'Staff Grant Extension',
+        description:
+          'The "Staff Grant Extension" feature enables staff to initiate extension requests, define durations, and create extension records for students. The system automates notifications to students about granted extensions, fostering transparent communication.',
+        icon: 'tabler:bulb',
+      },
+    ]}
+  />
+
+  <!-- Brands Widget ****************** -->
+
+  <Brands
+    title="Institutions Using This Product"
+    icons={[]}
+    images={[
+      {
+        src: '/src/assets/images/deakin-logo.png',
+        alt: 'Deakin',
+        href: 'https://www.deakin.edu.au/',
+      },
+      {
+        src: '/src/assets/images/unsw-logo.png',
+        alt: 'UNSW',
+      },
+      {
+        src: '/src/assets/images/swinburne-logo.png',
+        alt: 'Swinburne',
+      },
+    ]}
+  />
+</Layout>
