@@ -29,23 +29,23 @@ export const headerData = {
     links: [
       {
         text: 'OnTrack',
-        href: getPermalink('/services'),
+        href: getPermalink('/ontrack'),
       },
       {
         text: 'SplashKit',
-        href: getPermalink('/pricing'),
+        href: getPermalink('/splashkit'),
       },
       {
         text: 'CourseFlow',
-        href: getPermalink('/about'),
+        href: getPermalink('/courseflow'),
       },
       {
         text: 'Art Gallery',
-        href: getPermalink('/contact'),
+        href: getPermalink('/art-gallery'),
       },
       {
         text: 'Company Operations',
-        href: getPermalink('/terms'),
+        href: getPermalink('/company-operations'),
       },
     ],
   },
@@ -85,7 +85,7 @@ export const headerData = {
     //   href: '#',
     // },
   ],
-  actions: [{ text: 'Documentation Website', href: 'https://main--strong-fairy-c1bde1.netlify.app/', target: '_blank' }],
+  // actions: [{ text: 'Documentation Website', href: 'https://main--strong-fairy-c1bde1.netlify.app/', target: '_blank' }],
 };
 
 export const footerData = {

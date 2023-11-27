@@ -7,6 +7,7 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
+import Button from '~/components/ui/Button.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
@@ -58,7 +59,7 @@ const metadata = {
     id="aboutus"
     title="About Us"
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: '/src/assets/images/aboutus2.png',
       alt: 'Colorful Image',
     }}
   >
@@ -76,6 +77,11 @@ const metadata = {
       units and move forward from their engagement with the company.
       <br />
        Some of the work done by students can be found in our Documentation Website.
+      <br />
+      <br />
+      <Button variant="primary" href="https://main--strong-fairy-c1bde1.netlify.app/" target="_blank">
+        Documentation Website
+      </Button>
     </Fragment>
 
     <Fragment slot="bg">
@@ -113,7 +119,7 @@ const metadata = {
       {
         title: 'Art Gallery',
         description:
-          "The Art Gallery is a product being created to help sell and advertise rural Art in Australia. The project is in production not only for its artistic merits, but through its development the team at the Art Gallery hope to showcase and introduce webapp development to newer students earlier in their I.T. career.",
+          'The Art Gallery is a product being created to help sell and advertise rural Art in Australia. The project is in production not only for its artistic merits, but through its development the team at the Art Gallery hope to showcase and introduce webapp development to newer students earlier in their I.T. career.',
         icon: 'tabler:arrows-right-left',
       },
       {
