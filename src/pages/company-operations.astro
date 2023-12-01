@@ -18,25 +18,23 @@ const metadata = {
 
   <Content
     isReversed
-    id="ontrack"
-    title="OnTrack"
+    id="companyoperations"
+    title="Company Operations"
     image={{
-      src: '/src/assets/images/OnTrack-img.png',
+      src: '/src/assets/images/companyopslogo.png',
       alt: 'Colorful Image',
       width: '1600',
       height: '1300',
     }}
   >
     <Fragment slot="content">
-      OnTrack is an online assessment tool that provides students with a task-oriented approach to portfolio assessment.
-      Students work through a series of tasks in order to complete their unit learning outcomes.<br />
+      Thoth Tech's Company Operations department serves as the hub that manages the entirety of the company's functions.
+      Our primary objective is to provide the necessary policies, procedures, and resources that empower each student to
+      concentrate on their daily tasks, thereby propelling them toward their individual goals and objectives.<br />
       <br />
-       It is one of the bigger projects ran by Thoth Tech. It is a live production system that is in use at Deakin
-      University. Continuously evolving and expanding, it has been refined to serve as an outstanding educational tool
-      for both students and staff at the university. Its technological foundation comprises a Ruby on Rails backend and
-      an Angular JS / Angular 15 frontend. Several projects aimed at augmenting and advancing this product are available
-      for students to engage with and contribute to its enhancements.<br /><br />
-       OnTrack is sold under a package called Formatif and is available for purchase by the general public.
+       Given our company's frequent turnover every three months, our team is dedicated to ensuring seamless business
+      continuity. We achieve this by establishing transparent guidelines and structures that enable incoming teams to
+      seamlessly pick up where the previous student cohort left off.<br /><br />
     </Fragment>
 
     <Fragment slot="bg">
@@ -46,56 +44,70 @@ const metadata = {
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
-    actions={[
+  <Content
+    isAfterContent
+    items={[
       {
-        variant: 'primary',
-        text: 'Start exploring',
-        href: 'https://www.formatif.app/',
-        target: '_blank',
+        title: 'We ensure business continuity for an ever evolving company.',
+      },
+      {
+        title: 'We guarantee increased visibility to all products, projects, and company policies.',
+      },
+      {
+        title:
+          'By eliminating all technical administration duties, we enable others to work more effectively, giving employees more time to concentrate on making amazing products.',
+      },
+      {
+        title:
+          'We amplify the voice of the leadership by creating and enforcing policies and processes to improve company posture.',
+      },
+      {
+        title:
+          'We arrange workshops and knowledge-sharing sessions targeting specific areas where members of the team require enhancement or improvement.',
       },
     ]}
-    title="Formatif"
-    subtitle="To launch into a world of endless opportunities for structured teaching and learning, reach out to the Formatif team to get set up."
-  />
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Blueprint Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Why we are important.</h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   <Features
     id="features"
-    title="Latest Features"
+    title="Latest Contribution to the Company"
     items={[
       {
-        title: 'Numbas',
         description:
-          'This project aims to integrate Numbas testing into Ontrack, allowing tests to be presented to students before submitting reflections or necessary documents upon task completion. It aims to enable the Unit Chair to import, set up, and allocate tests to tasks, while also allowing students to undertake tests as part of the submission process.',
+          'Developed a training documentation aimed at enhancing employee competencies in key areas necessary for success in company projects.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Staff Grant Extension',
         description:
-          'The "Staff Grant Extension" feature enables staff to initiate extension requests, define durations, and create extension records for students. The system automates notifications to students about granted extensions, fostering transparent communication.',
+          'A website was established to enhance the accessibility of company policies, processes, and pertinent documentation necessary for employees to thrive within the organization. ',
         icon: 'tabler:bulb',
       },
-    ]}
-  />
-
-  <!-- Brands Widget ****************** -->
-
-  <Brands
-    title="Institutions Using This Product"
-    icons={[]}
-    images={[
       {
-        src: '/src/assets/images/deakin-logo.png',
-        alt: 'Deakin',
-        href: 'https://www.deakin.edu.au/',
+        description:
+          'Developed a policy for managing GitHub usage within Thoth Tech, providing guidelines for its effective utilization. ',
+        icon: 'tabler:brand-github',
       },
       {
-        src: '/src/assets/images/unsw-logo.png',
-        alt: 'UNSW',
+        description:
+          'Established a Documentation guideline outlining procedures for creating and publishing documents within Thoth Tech.',
+        icon: 'flat-color-icons:document',
       },
       {
-        src: '/src/assets/images/swinburne-logo.png',
-        alt: 'Swinburne',
+        description:
+          'Created a company website to showcase our identity and brand on a global scale, making our information accessible to a wide audience.',
+        icon: 'tabler:brand-webflow',
       },
     ]}
   />
