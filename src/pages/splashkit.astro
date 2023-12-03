@@ -18,25 +18,24 @@ const metadata = {
 
   <Content
     isReversed
-    id="ontrack"
-    title="OnTrack"
+    id="splashkit"
+    title="SplashKit"
     image={{
-      src: '/src/assets/images/OnTrack-img.png',
+      src: '/src/assets/images/splashkitlogo.png',
       alt: 'Colorful Image',
       width: '1600',
       height: '1300',
     }}
   >
     <Fragment slot="content">
-      OnTrack is an online assessment tool that provides students with a task-oriented approach to portfolio assessment.
-      Students work through a series of tasks in order to complete their unit learning outcomes.<br />
+      SplashKit serves as an introductory, versatile software toolkit designed for beginners, aiding in the initiation
+      of programming skills through its user-friendly functions. Those involved in this project possess strong expertise
+      in C++, C#, and Linux-based systems, particularly advantageous for Raspberry Pi projects.<br />
       <br />
-       It is one of the bigger projects ran by Thoth Tech. It is a live production system that is in use at Deakin
-      University. Continuously evolving and expanding, it has been refined to serve as an outstanding educational tool
-      for both students and staff at the university. Its technological foundation comprises a Ruby on Rails backend and
-      an Angular JS / Angular 15 frontend. Several projects aimed at augmenting and advancing this product are available
-      for students to engage with and contribute to its enhancements.<br /><br />
-       OnTrack is sold under a package called Formatif and is available for purchase by the general public.
+       The team has successfully crafted several impressive functionalities, including an arcade machine base image,
+      established a tutorial site dedicated to educating users about SplashKit and its application, among other notable
+      achievements. Continuously striving for enhancement, the team remains dedicated to refining the product and
+      incorporating new features to enhance its user experience.<br />
     </Fragment>
 
     <Fragment slot="bg">
@@ -50,13 +49,13 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Start exploring',
-        href: 'https://www.formatif.app/',
+        text: 'Learn more',
+        href: 'https://github.com/thoth-tech/SplashKit-Tutorial',
         target: '_blank',
       },
     ]}
-    title="Formatif"
-    subtitle="To launch into a world of endless opportunities for structured teaching and learning, reach out to the Formatif team to get set up."
+    title="SplashKit Tutorial"
+    subtitle="Embark on a fresh learning journey by exploring the diverse SplashKit resources available. These materials will assist you in initiating your journey with the product and empower you to create thrilling features using its capabilities."
   />
 
   <Features
@@ -64,39 +63,25 @@ const metadata = {
     title="Latest Features"
     items={[
       {
-        title: 'Numbas',
+        title: 'Asteroids',
         description:
-          'This project aims to integrate Numbas testing into Ontrack, allowing tests to be presented to students before submitting reflections or necessary documents upon task completion. It aims to enable the Unit Chair to import, set up, and allocate tests to tasks, while also allowing students to undertake tests as part of the submission process.',
+          'Asteroids is a top-down single player or co-op shooter that has you, the player, flying around and surviving an onslaught of rocks. Aim for a high score, do not lose your hearts before your friend, and maneuver around dangers and rack up that score!',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Staff Grant Extension',
+        title: 'SplashKit Tutorial',
         description:
-          'The "Staff Grant Extension" feature enables staff to initiate extension requests, define durations, and create extension records for students. The system automates notifications to students about granted extensions, fostering transparent communication.',
+          'The tutorial platform is dedicated to providing a comprehensive series of tutorials that aim to help readers learn how to effectively use Splashkit, a versatile framework supporting C++, C#, Python, and Pascal programming languages.',
+        icon: 'tabler:brand-blogger',
+      },
+      {
+        title: 'DX Ball Game',
+        description:
+          'DX Ball Game, also known as Breakout, which is an arcade video game designed to be played on arcade machines and raspberry pi-based units. The game is made to assist future students in developing games and understanding the fundamentals of C++ and the coding language with Splashkit.',
         icon: 'tabler:bulb',
       },
     ]}
   />
 
-  <!-- Brands Widget ****************** -->
-
-  <Brands
-    title="Institutions Using This Product"
-    icons={[]}
-    images={[
-      {
-        src: '/src/assets/images/deakin-logo.png',
-        alt: 'Deakin',
-        href: 'https://www.deakin.edu.au/',
-      },
-      {
-        src: '/src/assets/images/unsw-logo.png',
-        alt: 'UNSW',
-      },
-      {
-        src: '/src/assets/images/swinburne-logo.png',
-        alt: 'Swinburne',
-      },
-    ]}
-  />
+  
 </Layout>

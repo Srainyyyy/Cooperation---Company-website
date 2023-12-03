@@ -18,25 +18,23 @@ const metadata = {
 
   <Content
     isReversed
-    id="ontrack"
-    title="OnTrack"
+    id="artgallery"
+    title="Art Gallery"
     image={{
-      src: '/src/assets/images/OnTrack-img.png',
+      src: '/src/assets/images/artgallerylogo.png',
       alt: 'Colorful Image',
       width: '1600',
       height: '1300',
     }}
   >
     <Fragment slot="content">
-      OnTrack is an online assessment tool that provides students with a task-oriented approach to portfolio assessment.
-      Students work through a series of tasks in order to complete their unit learning outcomes.<br />
+      Indigenous and rural artists often face barriers in accessing the broader market, limiting their opportunities for
+      income and recognition. Our platform seeks to eliminate these barriers by leveraging modern technology to empower
+      artists to reach a wider consumer base, while bringing diverse cultures together.<br />
       <br />
-       It is one of the bigger projects ran by Thoth Tech. It is a live production system that is in use at Deakin
-      University. Continuously evolving and expanding, it has been refined to serve as an outstanding educational tool
-      for both students and staff at the university. Its technological foundation comprises a Ruby on Rails backend and
-      an Angular JS / Angular 15 frontend. Several projects aimed at augmenting and advancing this product are available
-      for students to engage with and contribute to its enhancements.<br /><br />
-       OnTrack is sold under a package called Formatif and is available for purchase by the general public.
+       We aim to deliver a highly available and scalable ecommerce platform that will allow for ease of sale of artwork
+      by small local artists. We plan to do this with our easily maintained C# minimal RESTful API, Vue frontend, and
+      our suite of other technologies used in streamlining the development pf our product.<br />
     </Fragment>
 
     <Fragment slot="bg">
@@ -44,59 +42,50 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- CallToAction Widget *********** -->
+  <!-- Features2 Widget ************** -->
 
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Start exploring',
-        href: 'https://www.formatif.app/',
-        target: '_blank',
-      },
-    ]}
-    title="Formatif"
-    subtitle="To launch into a world of endless opportunities for structured teaching and learning, reach out to the Formatif team to get set up."
-  />
-
-  <Features
-    id="features"
-    title="Latest Features"
+  <Features2
+    title="Features"
+    subtitle="An overview of art gallery's features, both publicly available and some in private preview."
     items={[
       {
-        title: 'Numbas',
-        description:
-          'This project aims to integrate Numbas testing into Ontrack, allowing tests to be presented to students before submitting reflections or necessary documents upon task completion. It aims to enable the Unit Chair to import, set up, and allocate tests to tasks, while also allowing students to undertake tests as part of the submission process.',
-        icon: 'tabler:brand-tailwind',
+        title: 'Artist Profiles',
+        description: "This consists of arts produced by a particular artist that can be purchased using the application.",
+        icon: 'flat-color-icons:template',
       },
       {
-        title: 'Staff Grant Extension',
+        title: 'Digital Gallery',
         description:
-          'The "Staff Grant Extension" feature enables staff to initiate extension requests, define durations, and create extension records for students. The system automates notifications to students about granted extensions, fostering transparent communication.',
-        icon: 'tabler:bulb',
+          "A digital space where visitors can view and appreciate art pieces without physically visiting a physical art gallery or shop.",
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'E-Commerce Integration',
+        description:
+          'Enables the seamless selling and buying of artwork through the art gallery platform.',
+        icon: 'flat-color-icons:currency-exchange',
+      },
+      {
+        title: 'Artist Collaboration',
+        description:
+          "Allows for collaborative efforts between artists to create, promote, or sell artwork through our platform.",
+        icon: 'flat-color-icons:document',
+      },
+      {
+        title: 'Community Engagement',
+        description:
+          'Allows for active interaction with the audience, artists, and art enthusiasts within the digital space.',
+        icon: 'tabler:building-community',
+      },
+      {
+        title: 'Online Exhibition',
+        description: 'Curated displays or showcases of artworks presented virtually through our digital platform.',
+        icon: 'tabler:app-window-filled',
       },
     ]}
-  />
-
-  <!-- Brands Widget ****************** -->
-
-  <Brands
-    title="Institutions Using This Product"
-    icons={[]}
-    images={[
-      {
-        src: '/src/assets/images/deakin-logo.png',
-        alt: 'Deakin',
-        href: 'https://www.deakin.edu.au/',
-      },
-      {
-        src: '/src/assets/images/unsw-logo.png',
-        alt: 'UNSW',
-      },
-      {
-        src: '/src/assets/images/swinburne-logo.png',
-        alt: 'Swinburne',
-      },
-    ]}
-  />
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
 </Layout>
