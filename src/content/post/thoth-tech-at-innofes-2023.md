@@ -2,7 +2,7 @@
 publishDate: 2023-11-26T00:00:00Z
 title: Thoth Tech at InnoFes, 2023
 excerpt: The annual InnoFes event, orchestrated by Deakins School of Information Technology, stands as a beacon for innovation, uniting tech enthusiasts to push the boundaries of technological breakthroughs.
-image: /src/assets/images/Deakin-InnoFes-50.jpg
+image: ~/assets/images/Deakin-InnoFes-50.jpg
 tags:
   - Thoth Tech
   - InnoFess
