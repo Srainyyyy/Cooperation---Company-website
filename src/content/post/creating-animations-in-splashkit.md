@@ -3,7 +3,7 @@ publishDate: 2023-11-25T00:00:00Z
 title: Creating Animations in SplashKit
 excerpt: Animations allow you to switch between different images to make a more visually dynamic entity
   on the screen. SplashKit allows you to create animations and use these together with sprite sheets to create these animations.
-image: /src/assets/images/DanceAnimation.gif
+image: /DanceAnimation.gif
 category: Tutorials
 tags:
   - animation
@@ -30,7 +30,7 @@ Cells are part of a bitmap image and are defined when the image is loaded (eithe
 
 The cells within an image are accessed by index, with each cell being numbered from the top left to bottom right (starting at 0). These indexes are used in frames to tell SplashKit what to draw to screen during the duration of the frame.
 
-<img src="/src/assets/images/frog.png" alt="frog animation." width="300" height="500" style="display: block; margin: 0 auto"/>
+<img src="/frog.png" alt="frog animation." width="300" height="500" style="display: block; margin: 0 auto"/>
 
 The above frog image gives you an example of a sprite sheet. As you can see this one image is actually a series of smaller images, these smaller images are what we call **cells**. For example, the first row show the character walking towards the viewer, while the last row show the character walking away from the viewer. To make an animation we need to link these images together in a meaningful way, this is done using an animation script.
 

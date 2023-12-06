@@ -15,7 +15,7 @@ At this year's exhibition, Thoth Tech took the spotlight, showcasing several of 
 
 Here are some visual glimpses that captured Thoth Tech's active participation and demonstrations during the event.
 
-<img src="/src/assets/images/Deakin-InnoFes-104.jpg" alt="frog animation."/><center><caption>Thoth Tech team at Innofes.</caption></center>
-<img src="/src/assets/images/Deakin InnoFes-89.jpg" alt="frog animation."/><center><caption>Company Operations student lead speaking with an industry expert</caption></center>
-<img src="/src/assets/images/Deakin-InnoFes-166.jpg" alt="frog animation."/><center><caption>SplashKit student lead enquiring from industry experts.</caption></center>
-<img src="/src/assets/images/Deakin-InnoFes-63.jpg" alt="frog animation."/><center><caption>Art Gallery student lead speaking with an industry expert</caption></center>
+<img src="/Deakin-InnoFes-104.jpg" alt="frog animation."/><center><caption>Thoth Tech team at Innofes.</caption></center>
+<img src="/Deakin InnoFes-89.jpg" alt="frog animation."/><center><caption>Company Operations student lead speaking with an industry expert</caption></center>
+<img src="/Deakin-InnoFes-166.jpg" alt="frog animation."/><center><caption>SplashKit student lead enquiring from industry experts.</caption></center>
+<img src="/Deakin-InnoFes-63.jpg" alt="frog animation."/><center><caption>Art Gallery student lead speaking with an industry expert</caption></center>
