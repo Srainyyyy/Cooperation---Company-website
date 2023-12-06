@@ -40,7 +40,7 @@ Within SplashKit, each frame have an identifier, cell number, duration, and a li
 
 The identifier of a frame is used by SplashKit to connect frames together into a sequence. The cell number is used by SplashKit to get the part of the image to draw when the animation is playing that frame. The duration is the number of times the animation needs to be updated before the next frame will be played. The next frame is the index of the frame to move to once this frame completes. If this field is omitted then the animation ends after the current frame has finished.
 
-<img src="/src/assets/images/Animation-basics.png" alt="frog animation." width="500" height="600" style="display: block; margin: 0 auto"/>
+<img src="/Animation-basics.png" alt="frog animation." width="500" height="600" style="display: block; margin: 0 auto"/>
 
 ## Animation Scripts
 
@@ -76,7 +76,7 @@ f: [4-7], [4-7], 5,
 f: [8, 9, 10, 11], [8, 9, 10, 11], 5,
 ```
 
-<img src="/src/assets/images/Animation-Frame.png" alt="animation." width="500" height="600" style="display: block; margin: 0 auto"/>
+<img src="/Animation-Frame.png" alt="animation." width="500" height="600" style="display: block; margin: 0 auto"/>
 
 When designing your animation an easy place to start is with a frame per cell in your animation. You can then put in a set duration, and link the frames together. For example, with the Frog sprite sheet you could use the following as a start. This includes frames in four groups, one for each of the different animations within the sheet (as indicated by the comments). Notice that each of these is a loop, so the "toward the user" sequence plays cells 0, 1, 2, 3 and then back to 0.
 
@@ -159,7 +159,7 @@ Sounds are coded with lines starting with "**s:**". An example of this is writte
 s: 0, 'FootStep', 'footsteps.wav'
 ```
 
-<img src="/src/assets/images/All-About-Animation-With-Sound.png" alt="animation." width="500" height="600" style="display: block; margin: 0 auto"/>
+<img src="/All-About-Animation-With-Sound.png" alt="animation." width="500" height="600" style="display: block; margin: 0 auto"/>
 
 ### Including Movement
 
@@ -172,4 +172,4 @@ In the animation script, a vector is indicated using a line starting with "**v:*
 v: 0, 5, -3
 ```
 
-<img src="/src/assets/images/All-About-Animation-Vectors.png" alt="animation." width="500" height="600" style="display: block; margin: 0 auto"/>
+<img src="/All-About-Animation-Vectors.png" alt="animation." width="500" height="600" style="display: block; margin: 0 auto"/>
