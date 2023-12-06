@@ -18,25 +18,25 @@ const metadata = {
 
   <Content
     isReversed
-    id="ontrack"
-    title="OnTrack"
+    id="courseflow"
+    title="Courseflow"
     image={{
-      src: '/src/assets/images/OnTrack-img.png',
+      src: '/src/assets/images/courseflowlogo.png',
       alt: 'Colorful Image',
       width: '1600',
       height: '1300',
     }}
   >
     <Fragment slot="content">
-      OnTrack is an online assessment tool that provides students with a task-oriented approach to portfolio assessment.
-      Students work through a series of tasks in order to complete their unit learning outcomes.<br />
+      At Deakin University, a large repertoire of courses are available for potential students to enrol in to help shape
+      their future career goals. Each of these courses will have a set of requirements ranging from minimum credit
+      points achieved, completion of core units and completion of minor/major sequences with required units etc.<br />
       <br />
-       It is one of the bigger projects ran by Thoth Tech. It is a live production system that is in use at Deakin
-      University. Continuously evolving and expanding, it has been refined to serve as an outstanding educational tool
-      for both students and staff at the university. Its technological foundation comprises a Ruby on Rails backend and
-      an Angular JS / Angular 15 frontend. Several projects aimed at augmenting and advancing this product are available
-      for students to engage with and contribute to its enhancements.<br /><br />
-       OnTrack is sold under a package called Formatif and is available for purchase by the general public.
+       These course and unit requirements can prove to be a challenge to keep track off and manage for some students. As
+      such, there is a need for a tool that can help students plan their course and help them manage their course and
+      unit requirements.<br /><br />
+       Courseflow is a product which is in its development stage. It aims to provide an easy-to-use interface for
+      students to plan their degree and be capable of considering course and unit requirements.
     </Fragment>
 
     <Fragment slot="bg">
@@ -44,58 +44,27 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Start exploring',
-        href: 'https://www.formatif.app/',
-        target: '_blank',
-      },
-    ]}
-    title="Formatif"
-    subtitle="To launch into a world of endless opportunities for structured teaching and learning, reach out to the Formatif team to get set up."
-  />
-
   <Features
     id="features"
-    title="Latest Features"
+    title="Preview Features"
     items={[
       {
-        title: 'Numbas',
+        title: 'Course Map',
         description:
-          'This project aims to integrate Numbas testing into Ontrack, allowing tests to be presented to students before submitting reflections or necessary documents upon task completion. It aims to enable the Unit Chair to import, set up, and allocate tests to tasks, while also allowing students to undertake tests as part of the submission process.',
-        icon: 'tabler:brand-tailwind',
+          'The presentation of the course map will initially vary depending on the selected course. To ensure user clarity, the course requirements and the progress toward fulfilling them will be distinctly outlined. This will involve a comparison between the current units displayed in the course map and the specified course requirements. The course map functionality will allow for the drag-and-drop capability, enabling users to move units into designated slots.',
+        icon: 'tabler:map',
       },
       {
-        title: 'Staff Grant Extension',
+        title: 'Unit Selection',
         description:
-          'The "Staff Grant Extension" feature enables staff to initiate extension requests, define durations, and create extension records for students. The system automates notifications to students about granted extensions, fostering transparent communication.',
+          'This feature comprises two essential components. Firstly, core units will be conveniently displayed to users through a window or panel, already available for drag-and-drop functionality. Secondly, electives will feature a distinct interface, akin to the course, requiring a query system to filter units based on user-defined criteria. In both these components, units will be equipped with a clear indicator denoting their validity for selection based on the existing course map settings.',
         icon: 'tabler:bulb',
       },
-    ]}
-  />
-
-  <!-- Brands Widget ****************** -->
-
-  <Brands
-    title="Institutions Using This Product"
-    icons={[]}
-    images={[
       {
-        src: '/src/assets/images/deakin-logo.png',
-        alt: 'Deakin',
-        href: 'https://www.deakin.edu.au/',
-      },
-      {
-        src: '/src/assets/images/unsw-logo.png',
-        alt: 'UNSW',
-      },
-      {
-        src: '/src/assets/images/swinburne-logo.png',
-        alt: 'Swinburne',
+        title: 'Requirements Indicators',
+        description:
+          'The presentation of course requirements alongside the ongoing progress is crucial in the interface. This includes showcasing unit prerequisites and other specific requirements, demonstrating the current progress towards fulfilling these criteria (such as completing a specific number of units, like 2 SIT coded units). To facilitate this display accurately, the course and unit data must be intricately linked with the defined requirements. This data will then be cross-referenced with the current course map settings to ensure that the visuals accurately reflect the progress and fulfillment status of these requirements.',
+        icon: 'tabler:highlight',
       },
     ]}
   />
