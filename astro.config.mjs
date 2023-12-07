@@ -10,7 +10,7 @@ import partytown from '@astrojs/partytown';
 import compress from 'astro-compress';
 import icon from 'astro-icon';
 import tasks from './src/utils/tasks';
-
+import { astroImageTools } from "astro-imagetools";
 import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 
 import { ANALYTICS, SITE } from './src/utils/config.ts';
@@ -35,6 +35,7 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
+    [astroImageTools],
     sitemap(),
     mdx(),
     icon({

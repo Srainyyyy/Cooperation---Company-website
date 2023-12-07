@@ -15,88 +15,67 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Content Widget **************** -->
-
+  <Content
+    title="High Achieiving Students"
+    subtitle="This page showcase the high achieving students who have passed through Thoth Tech and made valuable and lasting contributions in their various teams and company as a whole."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-[url('/src/assets/images/celebration.png')]"></div>
+    </Fragment>
+  </Content>
   <Content
     isReversed
-    id="ontrack"
-    title="OnTrack"
     image={{
-      src: '/src/assets/images/OnTrack-img.png',
+      src: '/src/assets/images/user1.png',
       alt: 'Colorful Image',
-      width: '1600',
-      height: '1300',
+      width: '1000',
+      height: '1000',
     }}
   >
     <Fragment slot="content">
-      OnTrack is an online assessment tool that provides students with a task-oriented approach to portfolio assessment.
-      Students work through a series of tasks in order to complete their unit learning outcomes.<br />
+      <strong>Alumni: Daniel Maddern</strong><br />
       <br />
-       It is one of the bigger projects ran by Thoth Tech. It is a live production system that is in use at Deakin
-      University. Continuously evolving and expanding, it has been refined to serve as an outstanding educational tool
-      for both students and staff at the university. Its technological foundation comprises a Ruby on Rails backend and
-      an Angular JS / Angular 15 frontend. Several projects aimed at augmenting and advancing this product are available
-      for students to engage with and contribute to its enhancements.<br /><br />
-       OnTrack is sold under a package called Formatif and is available for purchase by the general public.
+       Graduating from Deakin University with a Bachelor of Computer Science, Daniel achieved a WAM of 93, securing High
+      Distinctions in all subjects and reflecting his strong academic prowess. His engagement with Thoth Tech was
+      instrumental in enhancing his professional skill set and preparing him for work post-university. Serving as a
+      product lead for both Ontrack and the Art Gallery projects, and mentoring other senior students, he not only
+      deepened his experience in Rails and Angular but also honed his leadership skills. His most significant technical
+      contribution was the design and integration of a new feature for Ontrack, enabling seamless integration of Numbas
+      testing within the system.<br />
+      <br />
+       In an effort to foster teamwork and connectivity, He spearheaded a company-wide team-building session at Thoth
+      Tech to help students connect beyond their immediate teams, thereby promoting a cohesive and collaborative
+      environment.
     </Fragment>
 
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      <div class="absolute inset-0 bg-white-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
 
-  <!-- CallToAction Widget *********** -->
+  <Content
+    image={{
+      src: '/src/assets/images/user1.png',
+      alt: 'Colorful Image',
+      width: '1000',
+      height: '1000',
+    }}
+  >
+    <Fragment slot="content">
+      <strong>Alumni: Student B</strong><br />
+      <br />
+       Montes vulputate fermentum sed nunc penatibus cubilia tempus malesuada dapibus, posuere semper interdum lacinia
+      rutrum facilisis elementum sociosqu, conubia tincidunt aenean tortor porttitor phasellus vehicula eleifend.
+      Potenti habitant pellentesque tempus praesent class curabitur scelerisque suspendisse sociosqu dis, senectus
+      tellus nec cursus fermentum ridiculus malesuada magnis elementum.<br />
+      <br />
+       Montes vulputate fermentum sed nunc penatibus cubilia tempus malesuada dapibus, posuere semper interdum lacinia
+      rutrum facilisis elementum sociosqu, conubia tincidunt aenean tortor porttitor phasellus vehicula eleifend.
+      Potenti habitant pellentesque tempus praesent.
+    </Fragment>
 
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Start exploring',
-        href: 'https://www.formatif.app/',
-        target: '_blank',
-      },
-    ]}
-    title="Formatif"
-    subtitle="To launch into a world of endless opportunities for structured teaching and learning, reach out to the Formatif team to get set up."
-  />
-
-  <Features
-    id="features"
-    title="Latest Features"
-    items={[
-      {
-        title: 'Numbas',
-        description:
-          'This project aims to integrate Numbas testing into Ontrack, allowing tests to be presented to students before submitting reflections or necessary documents upon task completion. It aims to enable the Unit Chair to import, set up, and allocate tests to tasks, while also allowing students to undertake tests as part of the submission process.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Staff Grant Extension',
-        description:
-          'The "Staff Grant Extension" feature enables staff to initiate extension requests, define durations, and create extension records for students. The system automates notifications to students about granted extensions, fostering transparent communication.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
-
-  <!-- Brands Widget ****************** -->
-
-  <Brands
-    title="Institutions Using This Product"
-    icons={[]}
-    images={[
-      {
-        src: '/src/assets/images/deakin-logo.png',
-        alt: 'Deakin',
-        href: 'https://www.deakin.edu.au/',
-      },
-      {
-        src: '/src/assets/images/unsw-logo.png',
-        alt: 'UNSW',
-      },
-      {
-        src: '/src/assets/images/swinburne-logo.png',
-        alt: 'Swinburne',
-      },
-    ]}
-  />
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 </Layout>
