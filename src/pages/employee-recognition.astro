@@ -24,8 +24,40 @@ const metadata = {
       <div class="absolute inset-0 bg-[url('/src/assets/images/celebration.png')]"></div>
     </Fragment>
   </Content>
+
   <Content
     isReversed
+    image={{
+      src: '/Chloe-hulme.jpg',
+      alt: 'Colorful Image',
+      width: '1000',
+      height: '1000',
+    }}
+  >
+    <Fragment slot="content">
+      <strong>Alumni: Chloe Hulme</strong><br />
+      <br />
+       During Chloe's time at Thoth Tech she led and contributed to the Art Gallery product. She successfully Dockerised
+      the database, backend and frontend components, facilitating communication between components via a bridge network.
+      She also led the restructuring of the repository in GitHub, adding in a CI workflow with compile and other tests.
+      She wrote all the documentation present in the main code repo, as well as helped with some Deployment strategy
+      documentation. <br />
+      <br />
+       Finally, She converted the backend to be fully asynchronous, migrated the backend framework to .NET 8.1, and made
+      some frontend contributions; such as building the gallery view component and lightbox.<br />
+      <br />
+      <Button variant="secondary" href="https://github.com/chloeehulme" target="_blank">GitHub</Button>
+      <Button variant="primary" href="https://www.linkedin.com/in/chloe-hulme/" target="_blank">
+        LinkedIn
+      </Button>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
     image={{
       src: '/user1.png',
       alt: 'Colorful Image',
@@ -46,10 +78,9 @@ const metadata = {
       <br />
        In an effort to foster teamwork and connectivity, He spearheaded a company-wide team-building session at Thoth
       Tech to help students connect beyond their immediate teams, thereby promoting a cohesive and collaborative
-      environment.<br> <br>
-       <Button variant="secondary" href="https://github.com/maddernd?tab=repositories" target="_blank">
-        GitHub
-      </Button>
+      environment.<br />
+      <br />
+      <Button variant="secondary" href="https://github.com/maddernd?tab=repositories" target="_blank">GitHub</Button>
       <Button variant="primary" href="https://www.linkedin.com/in/daniel-maddern-90033533/" target="_blank">
         LinkedIn
       </Button>
@@ -61,6 +92,7 @@ const metadata = {
   </Content>
 
   <Content
+    isReversed
     image={{
       src: '/user1.png',
       alt: 'Colorful Image',
