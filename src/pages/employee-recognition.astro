@@ -1,0 +1,88 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Brands from '~/components/widgets/Brands.astro';
+import Features from '~/components/widgets/Features.astro';
+import Button from '~/components/ui/Button.astro';
+
+const metadata = {
+  title: 'Employee Recognition',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Content Widget **************** -->
+  <Content
+    title="High Achieiving Students"
+    subtitle="This page showcases the high achieving students who have passed through Thoth Tech and made valuable and lasting contributions in their various teams and company as a whole."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-[url('/src/assets/images/celebration.png')]"></div>
+    </Fragment>
+  </Content>
+  <Content
+    isReversed
+    image={{
+      src: '/user1.png',
+      alt: 'Colorful Image',
+      width: '1000',
+      height: '1000',
+    }}
+  >
+    <Fragment slot="content">
+      <strong>Alumni: Daniel Maddern</strong><br />
+      <br />
+       Graduating from Deakin University with a Bachelor of Computer Science, Daniel achieved a WAM of 93, securing High
+      Distinctions in all subjects and reflecting his strong academic prowess. His engagement with Thoth Tech was
+      instrumental in enhancing his professional skill set and preparing him for work post-university. Serving as a
+      product lead for both Ontrack and the Art Gallery projects, and mentoring other senior students, he not only
+      deepened his experience in Rails and Angular but also honed his leadership skills. His most significant technical
+      contribution was the design and integration of a new feature for Ontrack, enabling seamless integration of Numbas
+      testing within the system.<br />
+      <br />
+       In an effort to foster teamwork and connectivity, He spearheaded a company-wide team-building session at Thoth
+      Tech to help students connect beyond their immediate teams, thereby promoting a cohesive and collaborative
+      environment.<br> <br>
+       <Button variant="secondary" href="https://github.com/maddernd?tab=repositories" target="_blank">
+        GitHub
+      </Button>
+      <Button variant="primary" href="https://www.linkedin.com/in/daniel-maddern-90033533/" target="_blank">
+        LinkedIn
+      </Button>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    image={{
+      src: '/user1.png',
+      alt: 'Colorful Image',
+      width: '1000',
+      height: '1000',
+    }}
+  >
+    <Fragment slot="content">
+      <strong>Alumni: Student B</strong><br />
+      <br />
+       Montes vulputate fermentum sed nunc penatibus cubilia tempus malesuada dapibus, posuere semper interdum lacinia
+      rutrum facilisis elementum sociosqu, conubia tincidunt aenean tortor porttitor phasellus vehicula eleifend.
+      Potenti habitant pellentesque tempus praesent class curabitur scelerisque suspendisse sociosqu dis, senectus
+      tellus nec cursus fermentum ridiculus malesuada magnis elementum.<br />
+      <br />
+       Montes vulputate fermentum sed nunc penatibus cubilia tempus malesuada dapibus, posuere semper interdum lacinia
+      rutrum facilisis elementum sociosqu, conubia tincidunt aenean tortor porttitor phasellus vehicula eleifend.
+      Potenti habitant pellentesque tempus praesent.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+</Layout>

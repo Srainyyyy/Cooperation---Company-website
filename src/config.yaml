@@ -10,8 +10,8 @@ site:
 metadata:
   title:
     default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    template: '%s — Thoth Tech'
+  description: "\U0001F680 Producing products that makes education fun for all."
   robots:
     index: true
     follow: true

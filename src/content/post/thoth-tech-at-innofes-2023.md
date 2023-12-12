@@ -2,7 +2,7 @@
 publishDate: 2023-11-26T00:00:00Z
 title: Thoth Tech at InnoFes, 2023
 excerpt: The annual InnoFes event, orchestrated by Deakins School of Information Technology, stands as a beacon for innovation, uniting tech enthusiasts to push the boundaries of technological breakthroughs.
-image: /src/assets/images/Deakin-InnoFes-50.jpg
+image: ~/assets/images/Deakin-InnoFes-50.jpg
 tags:
   - Thoth Tech
   - InnoFess
@@ -15,7 +15,7 @@ At this year's exhibition, Thoth Tech took the spotlight, showcasing several of 
 
 Here are some visual glimpses that captured Thoth Tech's active participation and demonstrations during the event.
 
-<img src="/src/assets/images/Deakin-InnoFes-104.jpg" alt="frog animation."/><center><caption>Thoth Tech team at Innofes.</caption></center>
-<img src="/src/assets/images/Deakin InnoFes-89.jpg" alt="frog animation."/><center><caption>Company Operations student lead speaking with an industry expert</caption></center>
-<img src="/src/assets/images/Deakin-InnoFes-166.jpg" alt="frog animation."/><center><caption>SplashKit student lead enquiring from industry experts.</caption></center>
-<img src="/src/assets/images/Deakin-InnoFes-63.jpg" alt="frog animation."/><center><caption>Art Gallery student lead speaking with an industry expert</caption></center>
+<img src="/Deakin-InnoFes-104.jpg" alt="frog animation."/><center><caption>Thoth Tech team at Innofes.</caption></center>
+<img src="/Deakin InnoFes-89.jpg" alt="frog animation."/><center><caption>Company Operations student lead speaking with an industry expert</caption></center>
+<img src="/Deakin-InnoFes-166.jpg" alt="frog animation."/><center><caption>SplashKit student lead enquiring from industry experts.</caption></center>
+<img src="/Deakin-InnoFes-63.jpg" alt="frog animation."/><center><caption>Art Gallery student lead speaking with an industry expert</caption></center>

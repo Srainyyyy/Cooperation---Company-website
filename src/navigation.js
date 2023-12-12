@@ -53,7 +53,10 @@ export const headerData = {
       text: 'Blog',
       href: getBlogPermalink(),
     },
-
+    {
+      text: 'Employee Recognition',
+      href: getPermalink('/employee-recognition'),
+    },
     // {
 
     //   text: 'Blog',
