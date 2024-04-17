@@ -2,7 +2,7 @@
 publishDate: 2023-08-06T00:00:00Z
 title: How to be part of Thoth Tech as a Deakin student
 excerpt: Thoth Tech receives students every trimester who work collaboratively to design and build products that improve the education sector.
-image: ~/assets/images/deakin-students.png
+image: /deakin-students.png
 tags:
   - thoth tech
   - capstone
